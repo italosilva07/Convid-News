@@ -1,0 +1,29 @@
+body{
+	background:#DCDCDC; #cce7e8
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#logo{
+	width: 1350;
+	height: 25px; 
+}
+
+#Menu  {
+	font-size: 18px;
+	text-align: right;
+	margin: 15px;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+.noticiaVideo{
+	text-align: center;
+}
