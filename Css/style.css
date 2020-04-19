@@ -12,17 +12,38 @@ body h1{
 	
 }
 
+
+
+body img{
+	display: inline-grid;
+	text-align: center;
+}
+
+
 body #geral{
+	font-family: 'Comic Neue', cursive;
 	font-size: 60px;
+	text-align: center;
+	border-bottom: 1px solid white;
 }
 
 body h2{
+	font-family: 'Comic Neue', cursive;
 	text-align: center;
-	font-size: 40px;
+	background-size: 120px;
+	border:1px solid white;
+	border-radius: 80px;
+	font-size: 20px;
+	height: 40px;
+	margin-top: 20px;
 }
 
-body small{
-	font-size: 18px;
+body .noticia small p{
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+	border:1px solid white;
+	font-size: 16px;
 	text-align: center;
 }
 body .noticia{
@@ -31,39 +52,221 @@ body .noticia{
 	padding-top: 40px;
 	padding-bottom: 40px;
 	margin-bottom: 40px;
-}
-body section h1{
-	margin-top: 80px;
+
 }
 
+ .imagem{
+	display: inline-block;
+	border-radius: 30px;
+	width: 400px;
+	height: 400px;
+	text-align: center;
+}
+
+body section h1{
+	margin-top: 80px;
+
+}
+
+body a{
+	text-decoration: none;
+	color: blueviolet;
+}
+
+body a:hover{
+	color :blue;
+}
+
+body a:active{
+	color: green;
+}
+
+#noticia  main.estilo a:hover{
+	background-color: blueviolet;
+}
+
+
+
 #cabecalho{
-	padding-top: 40px;
-	padding-left: 20px;
-	 
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	
+	
+	
 }
 #logo{
 	font-family: 'Comic Neue', cursive;
 	color: black;
-	text-align: left;
-	padding-top: 40px;
-	padding-left: 25px;
+	font-size: 60px;
+
+	text-align: center;
+
+}
+
+ #cabecalho nav{
+ 	display: inline;
+ 	text-align: center;
+ 	position: fixed;
+ 	
+
+ 	opacity: 100%;
+ 	
+ 
+ }
+
+
+
+#cabecalho nav ul, #cabecalho nav ul li{
+	display:inline-block; 
+	padding: 0;
+	margin: 0;
+	/*position:fixed;
+	opacity: 50%;
+	background-color: white;
+	*/
+	text-align: center;
+
 }
 
 
-#cabecalho #menu{
-	text-align: right;
-	margin-top: 0px;
-	padding-right: 20px;
+#cabecalho h1{
+	border: 1px solid white;
+}
+
+a{
+	text-decoration: nome;
 }
 
 #menu a{
 	font-family: 'Comic Neue', cursive;
-	color: black;
+	color: #cce7e8;
 	text-decoration: none;
+	padding: 15px;
+	font-size: 24px;
 }
 
 #menu a:hover{
+	background-color: white;
 	color:#DF01A5;
 } 
 
 
+
+.noticiaMidia small{
+	text-align: center;
+	padding-left: 80px;
+	padding-top: 0px;
+	font-size: 10px;
+
+}
+
+.noticiaMidia{
+	padding-bottom: 100px;
+}
+
+
+
+ #sobre{
+	display: inline-grid;
+	background-color: white ;#CCEEFF
+	border-: 10px solid #FFFFFF;
+	width:  100%;
+	padding: 40px;
+	text-align: center;
+}
+
+#sobre figure img, #sobre a figure img{
+	background-color: #transparent;
+	border-radius: 30px;
+	width: 100px;
+
+}
+
+#sobre p{
+	
+	border: 1 solid 
+ 	text-align:center;
+	font-size: 12px;
+}
+
+
+#sobre table tr td a img, #sobre table tr td  img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	transition: 0.3s;
+}
+
+#sobre  a:hover{
+	box-shadow: 0 0 2px 1px  rgba(251, 205, 44, 0.9);
+}
+
+#texto{
+	background-color: #CCEEFF;
+	border-radius: 30px;
+	width:400px;
+	text-align: center;
+	padding: 15px;
+}
+
+#sobre td h1{
+	display: inline;
+	text-align: center;
+}
+
+
+.img{
+	display: inline-table;
+	width: 300px;
+	height: 100px;
+	margin:5px;
+	padding-left: 10px;
+	border-radius: 4px;
+	padding: 5px ;
+	background-position: center;
+}
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+}
+
+
+#contato form {
+	display: inline;
+}
+
+  
+.btn{
+    border:none;
+    padding: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   }
+
+.formcontainer {
+    margin: 32px auto;
+    text-align: center;
+    max-width: 700px;
+    max-height: 800px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    padding: 20px;
+    box-shadow: 1px 1px 1px -2px rgba(0, 0, 0, 0.6);
+}
+
+#iframeContact {
+    padding-top: 20px;
+    width: 640px;
+    height: 905px;
+}
+
+/****** PAGE LEARNMORE ******/
+.cardsLearnMore {
+    max-width: 800px;
+    margin: 32px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
